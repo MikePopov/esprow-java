@@ -1,8 +1,6 @@
 import org.junit.*;
 import base.BaseTest;
-import pages.LoginPage;
 import pages.SubscriptionPage;
-import pages.components.LeftMenu;
 import pages.components.MainMenu;
 
 import static org.hamcrest.CoreMatchers.containsString;

@@ -8,7 +8,6 @@ import base.BasePage;
 
 public class SubscriptionPage extends BasePage {
   private final By addExchangeBtn = By.cssSelector("[class='sc-AykKE guaEXt subscription-add-exchange-button']");
-  private final By pageName = By.cssSelector("[class=sc-LzLqI hSNJdz']");
 
   public SubscriptionPage(WebDriver driver) {
     super(driver);
