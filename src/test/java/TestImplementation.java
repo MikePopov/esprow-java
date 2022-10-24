@@ -14,5 +14,6 @@ public class TestImplementation extends BaseTest {
     mainMenu.openSubscription();
     SubscriptionPage subscriptionPage = new SubscriptionPage(driver);
     assertThat(subscriptionPage.getAddExchangeBtn(), containsString("Add Exchange"));
+
   }
 }
